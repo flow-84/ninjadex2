@@ -33,7 +33,6 @@
   position: relative;
   line-height: 24px;
 }
-.chart,
 .time {
   width: 830px;
   display: flex;
@@ -43,11 +42,12 @@
 }
 .chart {
   position: absolute;
-  width: 61.12%;
+  width: calc(100% - 528px);
   top: 296px;
-  right: 38.88%;
+  right: 528px;
   left: 0;
   height: 326px;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
@@ -65,9 +65,9 @@
   width: 525px;
 }
 .chartParent {
-  width: 96.79%;
-  right: -1%;
-  left: 4.21%;
+  width: calc(100% - 45px);
+  right: -14px;
+  left: 59px;
 }
 .coinIcon {
   position: relative;
